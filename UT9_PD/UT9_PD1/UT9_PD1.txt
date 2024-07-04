@@ -1,0 +1,22 @@
+¿Cómo se genera un vector monótonamente ascendente?
+Se genera utilizando un bucle for que en cada iteración inserta el valor i en la posición i del vector.
+
+¿Cómo se genera un vector monótonamente descendente?
+Se genera utilizando un bucle for que en cada iteración inserta el valor tamaño del vector - i en la posición i del vector.
+
+¿Cómo se genera un vector con valores aleatorios? ¿Pueden existir claves repetidas? ¿Cuál es el orden del tiempo de ejecución de este método?
+Se genera utilizando la función Random de Java. Un bucle for recorre el vector y en cada posición se genera un nuevo valor aleatorio, ajustado al rango del tamaño 
+del vector mediante un módulo. Además, se utiliza un segundo vector de booleanos donde se marca true en la posición correspondiente al valor aleatorio generado, evitando así claves repetidas. 
+El orden del tiempo de ejecución de este método es O(n^2) en el peor de los casos.
+
+¿Cuántos elementos contiene el vector de datos generado? ¿Cómo se puede modificar esta clase para que la cantidad de elementos del vector sea parametrizable?
+El vector de datos contiene la cantidad de elementos definida por la variable estática TAMANIO_MAX. Se podría modificar para que el tamaño del vector sea pasado como parámetro. 
+Por ejemplo, generarDatosAscendentes se podría escribir así:
+
+public int[] generarDatosAscendentes(int TAMANIO_MAX) {
+    int[] copiaAscendente = new int[TAMANIO_MAX];
+    for (int i = 0; i < TAMANIO_MAX; i++) {
+        copiaAscendente[i] = i;
+    }
+    return copiaAscendente;
+}

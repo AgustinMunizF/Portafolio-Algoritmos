@@ -1,0 +1,61 @@
+Ejercicio 1
+Resumen del algoritmo de Quicksort:
+
+Quicksort es un algoritmo de ordenamiento eficiente que utiliza el enfoque de "divide y vencerás". El proceso básico consiste en seleccionar un "pivote" y reorganizar los elementos de tal manera que todos los elementos menores que el pivote queden a su izquierda 
+y todos los elementos mayores queden a su derecha. Luego, se aplica recursivamente el mismo proceso a los subarreglos formados a la izquierda y a la derecha del pivote. La condición que se cumple en todo momento durante la ejecución del algoritmo es que el pivote 
+está en su posición final correcta y que todos los elementos a su izquierda son menores y todos los elementos a su derecha son mayores.
+
+
+
+Ejercicio 2:
+
+Dado el conjunto de datos: [44, 55, 12, 42, 94, 18, 6, 67] y asumiendo una función encuentraPivote que selecciona el mayor de los dos primeros elementos, 
+el proceso de ordenamiento usando Quicksort sería el siguiente:
+
+- Selección del pivote: Elige el mayor de los dos primeros elementos: 55 (entre 44 y 55).
+
+- Partición y recursión: Particiona los elementos en dos subarreglos: [44, 12, 42, 18, 6] y [94, 67] con 55 en su posición final.
+
+- Aplicar recursivamente a cada subarreglo: 
+Subarreglo izquierdo [44, 12, 42, 18, 6]:
+
+Elige pivote 44.
+Particiona en: [12, 42, 18, 6] y [] con 44 en su posición final.
+
+Para [12, 42, 18, 6]:
+Elige pivote 12.
+Particiona en: [] y [42, 18, 6] con 12 en su posición final.
+
+Para [42, 18, 6]:
+Elige pivote 42.
+Particiona en: [18, 6] y [] con 42 en su posición final.
+
+Para [18, 6]:
+Elige pivote 18.
+Particiona en: [6] y [] con 18 en su posición final.
+
+Subarreglo derecho [94, 67]:
+
+Elige pivote 94.
+Particiona en: [67] y [] con 94 en su posición final.
+
+
+1- Cada partición llama recursivamente al algoritmo en dos subarreglos. 
+Contando cada llamada, incluyendo las subllamadas recursivas, se realizan un total de 15 llamadas.
+
+2- a máxima profundidad es el nivel donde se encuentra el arreglo más pequeño, lo que en este caso es 4.
+
+3- En Java, se podría medir el nivel de profundidad recursiva utilizando una variable estática que se incremente 
+en cada llamada recursiva y se compare con el valor máximo alcanzado. 
+
+Ejercicio 3:
+- Estabilidad del algoritmo: La versión nueva asegura que el algoritmo sea estable, es decir, que mantenga el orden relativo de los elementos iguales.
+
+- Manejo de claves duplicadas: La versión mejora la eficiencia al manejar conjuntos de datos con muchas claves duplicadas, 
+distribuyendo mejor los elementos y reduciendo la profundidad de la recursión.
+
+- Optimización para diferentes tipos de datos: Se realizan ajustes para optimizar el tiempo de ejecución 
+dependiendo de si los datos están casi ordenados, completamente desordenados o contienen muchas claves iguales.
+
+- Mejor manejo del pivote: Se utiliza una estrategia más robusta para seleccionar el pivote, reduciendo la probabilidad 
+de que se elija un pivote pobre que conduzca a una partición desequilibrada.
