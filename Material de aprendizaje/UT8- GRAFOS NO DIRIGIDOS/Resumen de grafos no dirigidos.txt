@@ -1,0 +1,19 @@
+Definición
+Un grafo no dirigido se define como un par compuesto por un conjunto de vértices (o nodos) y un conjunto de aristas (o arcos) que conectan pares de vértices. Cada arista se representa como un par de dos vértices, indicando que hay una conexión entre ellos. La dirección no importa en un grafo no dirigido, a diferencia de los grafos dirigidos.
+
+Propiedades
+-Grado de un vértice: Es el número de aristas que inciden en un vértice. En un grafo no dirigido, esto equivale al número de vecinos del vértice.
+-Caminos: Una secuencia de vértices donde cada par consecutivo de vértices está conectado por una arista.
+-Ciclos: Un camino que comienza y termina en el mismo vértice, sin repetir aristas ni vértices (excepto el primero y el último).
+-Conectividad: Un grafo es conexo si existe un camino entre cualquier par de vértices. Si no es conexo, se puede dividir en componentes conexos.
+-Subgrafos: Un subgrafo es un grafo formado a partir de un subconjunto de los vértices y aristas del grafo original.
+
+Tipos de Grafos No Dirigidos
+-Grafo simple: No tiene bucles (aristas que conectan un vértice consigo mismo) ni aristas múltiples (más de una arista entre el mismo par de vértices).
+-Grafo completo: Cada par de vértices está conectado por una arista.
+-Grafo cíclico y acíclico: Un grafo cíclico contiene al menos un ciclo, mientras que un grafo acíclico no tiene ciclos.
+
+Algoritmos Comunes
+-Búsqueda en profundidad (DFS) y búsqueda en anchura (BFS): Para explorar el grafo.
+-Algoritmo de Dijkstra: Para encontrar caminos más cortos.
+-Algoritmo de Kruskal y Prim: Para encontrar árboles de expansión mínima.

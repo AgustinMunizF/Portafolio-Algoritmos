@@ -1,0 +1,39 @@
+Definición y Propiedades
+Árbol Binario:
+Cada nodo tiene como máximo dos hijos, denominados hijo izquierdo e hijo derecho.
+Puede ser un conjunto vacío o consistir de una raíz y dos subárboles binarios disjuntos.
+
+Árbol Binario Completo:
+Todos los niveles están completamente llenos, excepto posiblemente el último nivel, que está lleno de izquierda a derecha.
+
+Árbol Binario Lleno:
+Todos los nodos tienen dos hijos, excepto las hojas.
+
+Tipos de Árboles Binarios:
+Árbol Binario de Búsqueda (ABB):
+- Para cada nodo, las claves del subárbol izquierdo son menores y las del subárbol derecho son mayores.
+- Su altura en un árbol balanceado es log(n), permitiendo operaciones de búsqueda, inserción y eliminación en O(log(n)).
+
+Árboles Balanceados AVL:
+
+- Siguen el criterio de Adelson-Velskii y Landis: la diferencia de altura entre los subárboles de cualquier nodo es como máximo 1.
+- Garantizan un tiempo de operación O(log(n)) en el peor caso.
+
+Operaciones en Árboles Binarios:
+Básicas:
+- Inserción, búsqueda y eliminación de nodos.
+
+Recorridos:
+- Preorden, inorden y postorden, que determinan la secuencia de visita de los nodos.
+
+Algoritmos:
+
+- Algoritmo para contar las hojas de un árbol binario.
+- Algoritmo para calcular la suma de todos los elementos de un árbol binario de enteros.
+- Algoritmo para determinar la cantidad de nodos en un nivel específico.
+
+Aplicaciones:
+- Expresiones Aritméticas:
+- Representación de expresiones matemáticas.
+- Procesos de Decisión:
+- Estructuración de decisiones y alternativas.

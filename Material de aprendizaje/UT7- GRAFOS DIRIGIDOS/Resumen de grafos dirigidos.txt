@@ -1,0 +1,33 @@
+Definiciones Básicas:
+Un grafo es una estructura que representa relaciones entre objetos, compuesto por vértices (nodos) y arcos (aristas).
+Los grafos pueden ser dirigidos (donde las aristas tienen una dirección) o no dirigidos.
+Dos vértices son adyacentes si existe una arista que los conecta.
+
+Representaciones de Grafos:
+-Matriz de adyacencias: utiliza un espacio proporcional al cuadrado del número de vértices.
+-Lista de adyacencias: utiliza un espacio proporcional a la suma de los vértices y las aristas, pudiendo implementarse de forma estática o dinámica.
+
+Tipos de Caminos en Grafos Dirigidos:
+Un camino es una secuencia de vértices conectados por arcos.
+La longitud de un camino es el número de arcos que lo componen.
+Un camino simple no repite vértices, y un ciclo es un camino que empieza y termina en el mismo vértice.
+
+Algoritmo de Dijkstra:
+Utilizado para encontrar el camino más corto desde un vértice origen a todos los demás vértices.
+Emplea una técnica "ávida" (greedy) que selecciona en cada paso el vértice no visitado con la distancia más corta al origen.
+El algoritmo mantiene un conjunto de vértices cuya distancia más corta al origen ya es conocida.
+
+Aplicaciones de los Grafos:
+-Representación de ciudades y distancias entre ellas.
+-Modelado de bloques de un programa y posibles transferencias de flujo.
+-Representación de asignaturas y sus prerrequisitos en una carrera universitaria.
+-Modelado de estados en un autómata y las transiciones entre ellos.
+-Planificación de tareas en un proyecto, representando eventos de inicio y fin de tareas.
+
+Busqueda en Profundidad: 
+La búsqueda en profundidad es una generalización del recorrido en preorden de árboles.
+Dado un grafo G, inicialmente todos los vértices están marcados como no visitados.
+Se selecciona un vértice v como vértice de partida y se marca como visitado.
+Luego se recorre cada vértice no visitado adyacente a  v usando recursivamente la búsqueda en profundidad.
+Una vez visitados todos los vértices que se pueden alcanzar desde v, la búsqueda está completa. Si quedan 
+vértices sin visitar, se selecciona otro como partida y se repite el procedimiento.

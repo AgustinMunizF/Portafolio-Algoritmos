@@ -1,0 +1,35 @@
+1. Sintaxis Básica
+-Comentarios: Se pueden hacer con // para comentarios de una línea o /* ... */ para comentarios de varias líneas.
+-Clases: Todo en Java está contenido en una clase. Una clase se declara con la palabra clave class.
+-Métodos: Las funciones en Java se llaman métodos y se definen dentro de las clases.
+-Variables: Hay varios tipos de variables en Java: locales, de instancia (variables de objeto) y estáticas (variables de clase).
+
+2. Tipos de Datos
+-Primitivos: Los tipos de datos primitivos incluyen int, byte, short, long, float, double, boolean y char.
+-Referenciados: Incluyen arrays, strings, objetos y más.
+
+3. Operadores
+-Aritméticos: +, -, *, /, %
+-Relacionales: ==, !=, >, <, >=, <=
+-Lógicos: &&, ||, !
+-Asignación: =, +=, -=, *=, /=, %=
+
+4. Estructuras de Control
+-Condicionales: if, else, else if, switch
+-Bucles: for, while, do-while
+
+5. Programación Orientada a Objetos (POO)
+-Clases y Objetos: Las clases son plantillas para crear objetos.
+-Herencia: Una clase puede heredar características de otra clase con la palabra clave extends.
+-Polimorfismo: Permite que una tarea se realice de diferentes formas.
+-Encapsulamiento: Los datos de una clase se mantienen privados y se accede a ellos mediante métodos públicos.
+-Abstracción: Permite crear clases abstractas que no se pueden instanciar y que pueden tener métodos abstractos que deben ser implementados por subclases.
+
+6. Manejo de Excepciones
+-Try-Catch: Utilizado para manejar excepciones y errores en tiempo de ejecución.
+-Finally: Bloque opcional que se ejecuta después del try-catch, independientemente de si se lanzó una excepción o no.
+-Throws y Throw: Utilizados para manejar y declarar excepciones.
+
+7. Bibliotecas y Paquetes
+-Java tiene una rica API estándar que proporciona muchas clases y métodos predefinidos.
+-Importación de Paquetes: Utiliza la palabra clave import para incluir clases de otros paquetes.

@@ -1,0 +1,5 @@
+Hashing Algorithms and Security: https://www.youtube.com/watch?v=b4b8ktEV4Bg
+What is Hashing: https://www.youtube.com/watch?v=jmtzX-NPFDc
+Colecciones e iterador: https://www.youtube.com/watch?v=Q9YlFOr-htk&index=36&list=PLvimn1Ins-42o8Ms1G2SuRloD01nnXn31
+Tutorial de HashMap: https://www.youtube.com/watch?v=8PVRAzwOsfE&index=39&list=PLvimn1Ins-42o8Ms1G2SuRloD01nnXn31
+Tutorial de HashSet: https://www.youtube.com/watch?v=uCfqX9H2EZ0&index=40&list=PLvimn1Ins-42o8Ms1G2SuRloD01nnXn31

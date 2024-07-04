@@ -1,0 +1,79 @@
+Importancia de la Clasificación:
+-La clasificación es fundamental para muchos otros algoritmos y tareas computacionales.
+-Ha sido uno de los problemas más estudiados en ciencias de la computación.
+-Es esencial para el diseño de otros algoritmos, como búsqueda binaria, par más cercano, unicidad de elementos, distribución de frecuencias y selección.
+
+Aplicaciones:
+Se utiliza en técnicas como la búsqueda binaria, determinación de pares más cercanos, unicidad de elementos, distribución de frecuencias y selección de elementos.
+
+Consideraciones al Clasificar:
+-Número de elementos a ordenar.
+-Existencia de claves duplicadas.
+-Información conocida sobre los datos.
+-Distribuciones de las claves.
+-Longitud y dificultad de comparar las claves.
+-Tamaño del rango de claves posibles.
+
+Métodos de Clasificación:
+-Métodos de Inserción: Involucran la inserción directa en vectores o listas encadenadas.
+-Métodos de Intercambio: Como el ordenamiento por burbuja.
+-Métodos de Selección: Selección del elemento más pequeño y colocarlo en la posición correcta.
+-Métodos Especiales: Como la clasificación por urnas y por residuos.
+
+Shellsort:
+
+Método de Clasificación por Disminución de Incrementos: Se clasifica dividiendo la lista en grupos más pequeños y luego se clasifica cada grupo por separado. 
+Los incrementos se van reduciendo progresivamente hasta que el incremento es 1.
+
+Incrementos: Los elementos son ordenados utilizando una secuencia de incrementos. Ejemplos de secuencias son {5, 3, 1}. 
+Las secuencias no deben ser múltiplos de sí mismos para que las cadenas se mezclen lo más posible.
+
+Tiempo de ejecución: O(n^1.26)
+
+
+Bubblesort:
+
+Método de Intercambio: Consiste en comparar elementos adyacentes y cambiar sus posiciones si están en el orden incorrecto. Este proceso se repite hasta que no se necesiten más intercambios.
+
+Proceso:
+-Se compara cada par de elementos adyacentes.
+-Si están en el orden incorrecto, se intercambian.
+-Se repite el proceso hasta que toda la lista esté ordenada.
+
+Tiempo de ejecución: Peor caso O(n^2) y en el mejor (lista ya ordenada) es de O(n)
+
+
+Quicksort:
+
+Selección del pivote:
+Se toma un elemento del conjunto como pivote, idealmente la mediana del conjunto para asegurar un balance adecuado.
+
+Partición:
+Los elementos se permutan de manera que todos los elementos menores que el pivote queden a su izquierda y todos los mayores o iguales a su derecha.
+Se utilizan dos cursores, L y R, que inician en los extremos izquierdo y derecho del conjunto. L avanza hacia la derecha buscando elementos mayores o iguales al pivote, y R avanza hacia la izquierda buscando elementos menores que el pivote. Cuando se encuentran, los elementos apuntados por L y R se intercambian.
+El proceso se repite hasta que L y R se cruzan.
+
+Recursión:
+El conjunto se divide en dos subarreglos: uno con elementos menores que el pivote y otro con elementos mayores o iguales.
+Se aplica recursivamente Quicksort a cada subarreglo.
+
+Tiempo de ejecución:
+En el mejor y promedio de los casos, donde el pivote es aproximadamente la mediana, el tiempo de ejecución es  O(n.log n).
+En el peor de los casos, como cuando el pivote es el menor o mayor elemento en cada partición, el tiempo de ejecución es O(n^2) 
+
+
+Heapsort:
+Es un algoritmo de ordenación basado en el concepto de montículos (heaps). 
+Un heap es una estructura de datos especial que satisface la propiedad de heap: 
+-en un heap máximo, el valor de cada nodo es mayor o igual al de sus hijos, mientras que en un heap mínimo, es menor o igual.
+
+Construcción del Heap:
+Primero se construye un Heap máximo a partir del arreglo desordenado. En un Heap máximo, el mayor elemento se encuentra en la raíz del árbol.
+Se empieza desde el último nodo padre y se aplica la operación de "downheap" para ajustar el Heap, recorriendo hacia arriba hasta la raíz.
+
+Intercambio y Reducción del Heap:
+Una vez construido el Heap máximo, se intercambia el elemento raíz (máximo) con el último elemento del arreglo.
+Se reduce el tamaño del Heap en uno y se aplica la operación de "downheap" en la nueva raíz para restaurar la propiedad del Heap.
+Este proceso se repite hasta que el Heap se reduzca a un solo elemento.
+
+Tiempo de ejecución: O(n.logn) en el mejor, promedio y peor caso.

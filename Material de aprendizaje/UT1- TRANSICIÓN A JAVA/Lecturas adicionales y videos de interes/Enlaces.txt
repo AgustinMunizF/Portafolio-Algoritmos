@@ -1,0 +1,2 @@
+Aprende a programar en java en 5 minutos: https://www.youtube.com/watch?v=STVXkRO4LZY
+Lectura de conocimientos basicos de Java: http://docs.oracle.com/javase/tutorial/java/nutsandbolts/index.html

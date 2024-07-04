@@ -1,0 +1,4 @@
+Data Structures Tries: https://www.youtube.com/watch?v=zIjfhVPRZCg
+Preorden, Inorder y Postorder en 3 minutos: https://www.youtube.com/watch?v=Jo2euX89Oz8
+Arboles N-arios o genericos en JAVA: https://www.youtube.com/watch?v=hc5YfaT6x_k
+https://en.wikipedia.org/wiki/Tree_(data_structure)

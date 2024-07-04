@@ -1,0 +1,28 @@
+UT6 - Hashing
+El hashing es una técnica para transformar datos en una estructura fija de tamaño determinado.
+Se utiliza para indexar y recuperar elementos en una base de datos rápidamente.
+
+Función Hash:
+Una función hash toma una entrada y devuelve un número, que es el índice donde se almacena el valor.
+Las propiedades importantes de una buena función hash incluyen la uniformidad y la rapidez.
+
+Colisiones:
+Ocurren cuando dos claves diferentes tienen el mismo valor hash.
+Se gestionan mediante técnicas como el encadenamiento y la dirección abierta.
+
+Encadenamiento:
+Se utiliza una lista enlazada para almacenar elementos que tienen el mismo valor hash.
+Cada índice de la tabla hash apunta a una lista de elementos que colisionaron.
+
+Dirección Abierta:
+En lugar de usar listas enlazadas, se busca el siguiente espacio libre en la tabla hash.
+Métodos comunes incluyen la sondeo lineal, la sondeo cuadrática y la doble hash.
+
+Ventajas del Hashing:
+Permite búsquedas, inserciones y eliminaciones rápidas.
+Eficiente en términos de tiempo cuando se utiliza una buena función hash y manejo de colisiones.
+
+Aplicaciones del Hashing:
+Tablas de símbolos en compiladores.
+Tablas de enrutamiento en redes.
+Almacenamiento en caché.

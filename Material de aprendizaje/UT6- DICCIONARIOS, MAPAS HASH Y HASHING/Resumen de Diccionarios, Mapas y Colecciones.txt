@@ -1,0 +1,39 @@
+UT6 - Diccionarios, Mapas y API Colecciones
+
+Mapas:
+Permiten almacenar elementos de manera que puedan ser rápidamente ubicados utilizando claves.
+Cada elemento contiene información adicional a su clave.
+Los mapas almacenan pares clave-valor (k,v), donde cada clave es única.
+
+TDA Mapa:
+Operaciones básicas: tamaño(), estaVacio(), recuperar(k), poner(k,v), eliminar(k), claves(), valores(), elementos().
+
+Diccionarios:
+Almacenan pares clave-valor, pero permiten múltiples entradas con la misma clave.
+Existen diccionarios ordenados y desordenados.
+
+TDA Diccionario:
+Operaciones básicas: tamaño(), estaVacio(), buscar(k), buscarTodos(k), insertar(k,v), eliminar(e), elementos().
+
+API Colecciones de JAVA:
+Las colecciones son objetos que agrupan múltiples elementos en una sola unidad.
+Utilizadas para almacenar, recuperar, manipular y comunicar datos agregados.
+Componentes principales: interfases, implementaciones, algoritmos.
+
+Interfaz "Collection":
+Métodos: size(), isEmpty(), contains(), add(), remove(), iterator().
+
+Interfaz "Set":
+No permite elementos duplicados y modela la abstracción matemática de "conjunto".
+Implementaciones incluyen HashSet, TreeSet, LinkedHashSet.
+
+Interfaz "List":
+Colección ordenada que puede contener elementos duplicados.
+Operaciones adicionales: acceso por posición, búsqueda, iteración, vista de subrangos.
+Implementaciones incluyen ArrayList y LinkedList.
+
+Interfaz "Map":
+Mapea claves a valores, cada clave puede mapear a un solo valor.
+Operaciones básicas: put, get, remove, containsKey, containsValue, size, empty.
+Vistas: keySet, entrySet, values.
+Implementaciones incluyen HashMap, TreeMap, LinkedHashMap.

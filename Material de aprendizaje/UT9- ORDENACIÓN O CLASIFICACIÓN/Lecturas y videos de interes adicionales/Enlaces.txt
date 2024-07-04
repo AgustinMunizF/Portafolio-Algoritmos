@@ -1,0 +1,8 @@
+Quicksort en 4 minutos: https://www.youtube.com/watch?v=Hoixgm4-P4M
+Heapsort en 4 minutos: https://www.youtube.com/watch?v=2DmK_H7IdTo
+Respresentación de Shellsort: https://www.youtube.com/watch?v=n4sk-SzGvZA
+Sorting Algorithms Explained Visually: https://www.youtube.com/watch?v=RfXt_qHDEPw
+Insertion en 2 minutos: https://www.youtube.com/watch?v=JU767SDMDvA
+
+
+

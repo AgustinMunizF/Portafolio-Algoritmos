@@ -1,0 +1,28 @@
+Árboles Genéricos:
+Un árbol es una estructura jerárquica compuesta por nodos con una relación padre-hijo. Cada árbol tiene una raíz y subárboles, que también son árboles.
+Se utiliza en aplicaciones como organigramas, sistemas de archivos y entornos de programación.
+
+Terminología de Árboles Genéricos:
+-Grado: Número de subárboles de un nodo.
+-Nodo Terminal (hoja): Nodo que no tiene hijos.
+-Nodo Interno: Nodo que tiene al menos un hijo.
+-Nivel: La raíz tiene nivel 0 y cada nodo tiene un nivel mayor que su padre en uno.
+
+Recorridos de Árboles Genéricos:
+-Preorden: Visita la raíz, luego recorre los subárboles en preorden.
+-Inorden: Recorre el subárbol izquierdo, visita la raíz y luego recorre el subárbol derecho.
+-Postorden: Recorre los subárboles y finalmente visita la raíz.
+
+Representación de Árboles Genéricos:
+-Primer hijo – siguiente hermano: Una técnica para representar árboles donde cada nodo mantiene punteros a su primer hijo y a su hermano derecho.
+
+Tries:
+Un trie es un árbol utilizado para almacenar un conjunto de cadenas (strings) de un alfabeto específico, donde ninguna cadena es prefijo de otra.
+Los nodos están etiquetados con caracteres y los caminos desde la raíz a los nodos externos representan las cadenas del conjunto.
+Se utilizan para búsquedas rápidas de patrones y son eficientes en aplicaciones de recuperación de información, como en bases de datos genómicas.
+
+Operaciones en Tries:
+-Inserción: Agregar nuevas cadenas al trie.
+-Búsqueda: Encontrar una cadena en el trie.
+-Eliminación: Eliminar una cadena del trie.
+-Comparación de patrones: Encontrar todas las cadenas que contienen un patrón dado como prefijo.

@@ -1,0 +1,4 @@
+https://csacademy.com/lesson/breadth_first_search/
+http://en.wikipedia.org/wiki/Graph_(abstract_data_type)
+Algorithms: Graph Search, DFS(busqueda en profundidad) and BFS(busqueda en amplitud): https://www.youtube.com/watch?v=zaBhtODEL0w
+Breadth First Search Algorithm(busqueda en amplitud): https://www.youtube.com/watch?v=oDqjPvD54Ss

@@ -1,0 +1,4 @@
+Teoría de GRAFOS en informatica: https://www.youtube.com/watch?v=F5Xjpg0-NhM&t=30s
+Intro to Directed Graphs: https://www.youtube.com/watch?v=mXoiHgH4mEE
+Introduction to Graph Theory: A Computer Science Perspective: https://www.youtube.com/watch?v=LFKZLXVO-Dg
+http://en.wikipedia.org/wiki/Directed_graph

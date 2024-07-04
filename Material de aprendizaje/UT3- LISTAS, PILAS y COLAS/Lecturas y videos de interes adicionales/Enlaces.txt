@@ -1,0 +1,3 @@
+Estructura de datos: LISTAS: https://www.youtube.com/results?search_query=listas+en+java
+Introduction to Stacks and Queues: https://www.youtube.com/watch?v=A3ZUpyrnCbM
+Introduction to Linked Lists: https://www.youtube.com/watch?v=WwfhLC16bis

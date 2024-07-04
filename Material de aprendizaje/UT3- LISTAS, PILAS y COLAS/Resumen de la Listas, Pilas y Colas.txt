@@ -1,0 +1,65 @@
+1. Listas
+Descripción y Características:
+-Una lista es una secuencia de cero o más elementos de un tipo determinado.
+-Los elementos están separados por comas y pueden estar en posiciones específicas.
+-Ejemplos comunes incluyen listas de productos, alumnos, facturas, etc.
+
+Funcionalidades Básicas:
+-Agregar Elementos: Se puede agregar al final, al principio o en una posición específica.
+-Eliminar Elementos: Se puede eliminar un elemento conociendo su posición o alguna característica.
+-Acceder a Elementos: Realizar alguna acción sobre un elemento específico.
+-Otras Operaciones Básicas: Verificar si está vacía, contar elementos, vaciar la lista.
+
+Métodos Avanzados:
+-Eliminar elementos duplicados.
+-Concatenar listas.
+-Realizar operaciones de conjuntos matemáticos (e.g., unión, intersección).
+
+Implementación:
+-Con Arreglos: Memoria contigua, puede requerir redimensionamiento.
+-Con Referencias (Listas Enlazadas): Uso de nodos con referencias al siguiente nodo, evita desplazamientos pero requiere más memoria para referencias.
+
+2. Pilas (Stacks)
+Descripción y Características:
+-Estructura de datos LIFO (Last In, First Out).
+-Ejemplos de uso incluyen la gestión de llamadas en sistemas operativos.
+
+Operaciones Básicas:
+-Push: Insertar un elemento en la cima.
+-Pop: Eliminar el elemento de la cima.
+-Peek: Consultar el elemento en la cima sin eliminarlo.
+
+Implementación:
+-Con Arreglos: Fácil de implementar, pero tiene un tamaño fijo.
+-Con Listas Enlazadas: Más flexible, pero más compleja.
+
+3. Colas (Queues)
+Descripción y Características:
+-Estructura de datos FIFO (First In, First Out).
+-Usada en sistemas de impresión, gestión de tareas, etc.
+
+Operaciones Básicas:
+-Enqueue: Insertar un elemento al final.
+-Dequeue: Eliminar el primer elemento.
+-Front: Consultar el primer elemento sin eliminarlo.
+
+Implementación:
+-Con Arreglos: Simple, pero puede ser ineficiente para colas largas.
+-Con Listas Enlazadas: Más eficiente para operaciones dinámicas.
+
+4. Tipos de Datos Abstractos (TDA)
+Definición y Conceptos:
+Un TDA es un modelo matemático con un conjunto de operaciones definidas.
+Ejemplos de TDA incluyen listas, pilas y colas.
+La implementación puede variar dependiendo de la estructura de datos utilizada.
+
+Planteamiento de Problemas:
+
+Ejemplo: Imprimir etiquetas de una lista en orden.
+Solución paso a paso desde el modelo matemático hasta el algoritmo en pseudocódigo.
+Resolución de Problemas:
+
+Ejemplo: Diseñar un algoritmo para eliminar elementos con etiquetas duplicadas.
+Primer paso: Describir la solución en lenguaje natural.
+Segundo paso: Refinar la solución y elaborar un algoritmo en pseudocódigo.
+Tercer paso: Implementar el TDA con estructuras de datos y procedimientos en un lenguaje de programación.
