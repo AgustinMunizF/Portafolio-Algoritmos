@@ -1,7 +1,0 @@
-String hannah = "Did Hannah see bees? Hannah did.";
-
-int indexB = hannah.indexOf('b');
-        if (indexB != -1) {
-            System.out.println("El caracter 'b' esta en el indice " + indexB);
-
-// La longitud del string es: 32, en el indice 12 esta la letra 'b' y el indice de la primera letra 'b' es 15
